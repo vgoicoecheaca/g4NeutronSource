@@ -1,0 +1,14 @@
+
+/run/initialize
+/vis/scene/create
+/vis/open OGL
+/vis/drawVolume
+/vis/geometry/set/visibility logic-lab 0 false
+/vis/geometry/set/colour logic-target 0 1 0 1 0.3
+/vis/geometry/set/colour logic-innerShield 0 0 0 1 0.3
+/vis/geometry/set/colour logic-outerShield 0 0 1 0 0.3
+/vis/geometry/set/colour logic-acDisk 0 1 1 0 0.3
+/vis/viewer/set/style surface 
+##/vis/scene/add/axes 
+/vis/scene/add/scale
+/vis/scene/add/trajectories smooth

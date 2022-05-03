@@ -1,0 +1,9 @@
+
+/run/initialize
+/vis/scene/create
+/vis/open OGL
+/vis/drawVolume
+/vis/viewer/set/style surface 
+##/vis/scene/add/axes 
+/vis/scene/add/scale
+/vis/scene/add/trajectories smooth

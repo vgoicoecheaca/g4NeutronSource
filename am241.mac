@@ -1,0 +1,34 @@
+/run/verbose 0
+/event/verbose 0
+/tracking/verbose 0
+
+/run/initialize
+
+#/ns/detector/sourcePos 6 cm
+/ns/gun/particle ion
+/ns/gun/ion 95 241
+/process/had/rdm/thresholdForVeryLongDecayTime 432.2  year
+
+#Plane
+#/ns/gun/type Plane
+#/ns/gun/shape Disk
+#/ns/gun/center 0 0 57 mm
+#/ns/gun/center 0. 0. 135.0500 mm
+#/ns/gun/radius 3 mm
+
+#surface
+#/ns/gun/type Surface
+#/ns/gun/shape Cylinder
+#/ns/gun/center 0. 0. 135.049 mm
+#/ns/gun/halfz 0.0005 mm
+#/ns/gun/radius 3 mm
+
+#volume
+/ns/gun/type Volume
+/ns/gun/shape Cylinder
+/ns/gun/center 0. 0. 132.549 mm
+/ns/gun/halfz 0.0005 mm
+/ns/gun/radius 3 mm
+/ns/gun/confine Am241
+
+/run/beamOn 10000

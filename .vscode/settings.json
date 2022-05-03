@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "new": "cpp",
+        "ratesEmbedded.C": "cpp",
+        "makeAr39Plot.C": "cpp",
+        "ar39_analysis_withVETO.C": "cpp",
+        "v1724_analysis_UAr_withVETO.C": "cpp",
+        "s2_200_radialLT14.C": "cpp"
+    }
+}

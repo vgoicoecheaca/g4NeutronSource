@@ -1,0 +1,12 @@
+/run/verbose 1
+/event/verbose 1
+/tracking/verbose 2
+
+/run/initialize
+
+/ns/gun/particle geantino
+/ns/gun/energy 1 eV
+/ns/gun/position 0. 0. 5 m  
+/ns/gun/direction 0. 0. -1 
+
+/run/beamOn 1

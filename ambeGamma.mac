@@ -1,0 +1,24 @@
+/run/verbose 0
+/event/verbose 0
+/tracking/verbose 0
+
+/run/initialize
+
+/ns/detector/sourcePos 7 cm
+/ns/detector/source AmBe
+/ns/gun/particle gamma
+/ns/gun/energy 4.4 MeV
+
+
+#volume
+/ns/gun/type Volume
+/ns/gun/shape Cylinder
+/ns/gun/center 0. 0. 67.9995 mm
+/ns/gun/radius 3 mm
+/ns/gun/halfz 0.0005 mm
+/ns/gun/confine Am241
+
+/run/beamOn 100000
+
+
+

@@ -1,0 +1,11 @@
+/run/verbose 0
+/event/verbose 0
+/tracking/verbose 0
+
+/run/initialize
+/ns/gun/particle gamma
+/ns/gun/energy 60 keV
+/ns/gun/position 0 0 132.549 cm
+/ns/gun/direction 0 0 -1
+
+/run/beamOn 1000000
