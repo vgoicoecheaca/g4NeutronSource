@@ -1,0 +1,21 @@
+/run/verbose 1
+/event/verbose 1
+/tracking/verbose 2
+
+/ns/detector/numberOfActiveLayers 3
+#/ns/detector/foamThickness   1.0 mm 
+#/ns/detector/pelletThickness 1.0 mm
+#/ns/detector/AuLeafThickness 0.001 mm
+#/ns/detector/AmThickness     0.001 mm
+
+/run/reinitializeGeometry 1 
+/run/geometryModified 1 
+/run/initialize
+
+/ns/gun/particle geantino
+/ns/gun/energy 1 eV
+#/ns/gun/confine Am241Phys0 Am241Phys1 Am241Phys2
+/ns/gun/position 0. 0. 5 m   
+/ns/gun/direction 0. 0. -1
+
+/run/beamOn 1
